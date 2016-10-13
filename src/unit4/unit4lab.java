@@ -153,12 +153,12 @@ public class unit4lab {
     public static void challenge8(){
         String firstPlace, secondPlace, thirdPlace;
         
-        Runner runner1 = new Runner("Tim", 5.23);
-        Runner runner2 = new Runner("John", 7.41);
-        Runner runner3 = new Runner("Ruth", 4.21);
+        Runner runner1 = new Runner("Tim", 4.23);
+        Runner runner2 = new Runner("John", 3.41);
+        Runner runner3 = new Runner("Ruth", 5.21);
         
         //new test - added something more complicated
-        System.out.println("" + Runner.getResults(runner1, runner2, runner3));
+        System.out.println( Runner.getResults(runner1, runner2, runner3));
 
 
 
