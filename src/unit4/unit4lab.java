@@ -18,7 +18,7 @@ public class unit4lab {
         //challenge2(); // time calculator
         //challenge3(); // test scores
         //challenge7(); //fat grams
-        //challenge8(); //running the race
+        challenge8(); //running the race
     }
     
     //1 Roman Numerals
@@ -157,7 +157,12 @@ public class unit4lab {
         Runner runner2 = new Runner("John", 7.41);
         Runner runner3 = new Runner("Ruth", 4.21);
         
-        
+        //new test - added something more complicated
+        System.out.println("" + Runner.getResults(runner1, runner2, runner3));
+
+
+
+        //original work
         if(runner1.getMinutes() < runner2.getMinutes()) {
             if(runner1.getMinutes() < runner3.getMinutes()){
                 firstPlace = runner1.getName();
@@ -199,6 +204,8 @@ public class unit4lab {
         System.out.println("Second place:\t" + secondPlace);
         System.out.println("Third place:\t" + thirdPlace);
     }
+
+    
 }
 
     
